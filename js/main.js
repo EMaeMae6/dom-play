@@ -6,7 +6,7 @@ document.getElementById("html-checker").setAttribute("href","https://validator.w
 document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
 
 //manages mobile nav 
-function myFunction() {
+function myFunction(){
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
